@@ -8,8 +8,13 @@ Escribe el código que devuelva una cadena al revés. Por ejemplo, la cadena "ho
 public class Ejercicio0 {
     public static void main(String[] args) {
         String text = "Ayer comí hamburguesita!";
-
-        StringBuilder textpm = new StringBuilder(text);
-        System.out.println(textpm.reverse());
+        System.out.println(reverse(text));
     }
+
+    public static String reverse(String texto) {
+        StringBuilder textpm = new StringBuilder(texto);
+
+        return textpm.reverse().toString();
+    }
+
 }
