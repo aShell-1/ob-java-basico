@@ -1,0 +1,5 @@
+// 4. Indica cuál es el problema de utilizar un Vector con la capacidad por defecto si tuviésemos 1000 elementos para ser añadidos al mismo.
+
+Pasa que si no definimos capacidades tales como initialCapacity y capacityIncrement correspondientes a un vector,
+al comenzar a añadir elementos, si el vector llega a su límite de capacidad este duplicará su capacidad por defecto (10) y se volverá a duplicar cada que necesite superar su nueva capacidad,
+entonces, si sabiendo esto le agregamos muchos elementos, el consumo de memoria se disparará.
