@@ -1,0 +1,3 @@
+students, liam, olivia, noah, emma, ava, oliver, isabella, sophia, elijah, mia, james, amelia, william, harper, benjamin, evelyn, lucas, abigail, alexander, emily
+courses, python programming, web development fundamentals, java for beginners, introduction to data science, javascript essentials, mobile app development
+languages, python, java, javascript, c, c++, ruby, go, swift, php, kotlin
